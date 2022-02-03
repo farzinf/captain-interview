@@ -9,7 +9,17 @@ $ npm install
 ```
 
 ## Running the app
+copy environment variable
+```bash
+cp .env.example .env
+```
 
+if need mongodb 
+```bash
+docker-compose up
+```
+
+run project
 ```bash
 # development
 $ npm run start
